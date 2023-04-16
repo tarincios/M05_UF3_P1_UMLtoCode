@@ -18,7 +18,7 @@ namespace M05_UF3_P1_UMLtoCode
         public string street;
         public string city;
         public string state;
-        public string postalCode;
+        public int postalCode;
         public string country;
         public bool validate()
         {
@@ -48,7 +48,6 @@ namespace M05_UF3_P1_UMLtoCode
         }
         public Customer accountCustomer;
         public Transaction accountTransaction;
-
     }
     public struct Transaction
     {
@@ -75,5 +74,4 @@ namespace M05_UF3_P1_UMLtoCode
             return amount;
         }
     }
-
 }
